@@ -29,17 +29,18 @@ a {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
+  width: 100%;
 }
 
 /*=================
     navbar style
  ==================*/
-.header_container {
+.inner_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 55px 0;
-  /* margin-top: 55px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .logo,
 .logo_lab {
@@ -51,34 +52,110 @@ a {
 .logo_lab {
   color: #242f51;
 }
-.header_container ul {
+.menu_area ul {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header_container ul li {
+.menu_area ul li {
   list-style: none;
 }
-.header_container ul li:last-child {
+.menu_area ul li:last-child {
   margin-left: 20px;
 }
-.header_container ul li a {
+.menu_area ul li a {
   padding: 10px 18px;
-  color: #242f51;
   transition: 0.3s;
+  font-size: 16px;
+  line-height: 44px;
+  color: #242f51;
+  font-weight: 400;
 }
-.header_container ul li a:hover {
-  color: orange;
+.menu_area ul li a:hover {
+  color: #fcae61;
 }
-#try_btn {
+.try_btn {
   width: 170px;
   height: 57px;
   border-radius: 29px;
   background-color: #2500f9;
+  outline: 0;
+  border: 0;
+  color: #f9fbfc;
+  font-size: 16px;
+  line-height: 44px;
+  cursor: pointer;
+}
+
+/* ============
+banner style
+================*/
+#banner {
+  background-image: url(../images/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  min-height: calc(100vh - 117px);
+}
+.inner_banner {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+.inner_banner h6 {
+  width: 362px;
+  height: 35px;
+  border-radius: 17px;
+  background-color: #e2eaed;
+  font-size: 18px;
+  line-height: 28px;
+  color: #242f51;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+.inner_banner i {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 15px;
+  width: 39px;
+  height: 35px;
+  border-radius: 17px;
+  background-color: #feaa25;
 }
-#try_btn a {
-  color: #fff;
+.inner_banner h1 {
+  font-size: 55px;
+  line-height: 75px;
+  color: #242f51;
+  font-weight: 600;
+  margin: 20px 0 25px 0;
+  max-width: 523px;
+}
+.inner_banner p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #616368;
+  font-weight: 400;
+  max-width: 486px;
+}
+.banner_btn_area {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+}
+.banner_btn_area a {
+  color: #2500f9;
+  margin-left: 25px;
+}
+.banner_image {
+  display: flex;
+  justify-content: center;
+}
+.banner_image img {
+  max-width: 65%;
 }
