@@ -31,6 +31,12 @@ a {
   padding: 0 15px;
   width: 100%;
 }
+.container_mini {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
 
 /*=================
     navbar style
@@ -188,7 +194,6 @@ features style
 .inner_features {
   display: flex;
   justify-content: flex-end;
-
   background-image: url(../images/features/features-bg.png);
   background-repeat: no-repeat;
   background-size: contain;
@@ -298,4 +303,137 @@ features-2 style
 }
 .features_items_2 .item_3 h4 {
   color: #40975f;
+}
+
+/* ============
+built style
+================*/
+#built {
+  margin-bottom: 150px;
+}
+.inner_built {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+}
+.built_content h2 {
+  max-width: 360px;
+  font-size: 36px;
+  line-height: 46px;
+  color: #242f51;
+  font-weight: 600;
+}
+.built_content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+  margin: 40px 0 40px 0;
+}
+/* ============
+choose style
+================*/
+.inner_choose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 90px;
+}
+.inner_choose h2 {
+  font-size: 36px;
+  line-height: 46px;
+  color: #242f51;
+  font-weight: 600;
+  max-width: 440px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.inner_choose p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+  max-width: 635px;
+  text-align: center;
+}
+/* ============
+services style
+================*/
+
+.inner_services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 90px;
+  justify-content: center;
+}
+.service {
+  max-width: 265px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.service h3 {
+  font-size: 20px;
+  line-height: 58px;
+  color: #242f51;
+  font-weight: 600;
+}
+.service p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+}
+
+/* ============
+ultimate services style
+================*/
+#ultimate_features {
+  background-image: url(../images/ultimate-services/ultimate-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  margin-bottom: 170px;
+}
+.inner_ultimate_features h2 {
+  font-size: 36px;
+  line-height: 46px;
+  color: #242f51;
+  font-weight: 600;
+  max-width: 325px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.inner_ultimate_features > p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+  max-width: 395px;
+  margin-bottom: 60px;
+}
+
+.ultimate_services {
+  max-width: 590px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+  justify-content: start;
+}
+.ultimate_service {
+  max-width: 265px;
+  margin-bottom: 60px;
+}
+.ultimate_service h3 {
+  font-size: 20px;
+  line-height: 58px;
+  color: #242f51;
+  font-weight: 600;
+}
+.ultimate_service p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
 }
