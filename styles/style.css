@@ -216,3 +216,36 @@ features style
   margin: 50px 0;
   max-width: 380px;
 }
+/* ============
+jackpots style
+================*/
+
+.innet_jacpots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.innet_jacpots h2 {
+  font-size: 40px;
+  line-height: 50px;
+  color: #242f51;
+  font-weight: 600;
+  width: 461px;
+  padding: 0 15px;
+}
+.innet_jacpots p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+  max-width: 440px;
+  padding: 0 15px;
+}
+#jackpots {
+  margin: 60px 0 60px 0;
+}
+.middle_border {
+  border-right: 2px solid gray;
+  min-height: 150px;
+  /* height: initial; */
+}
