@@ -181,3 +181,38 @@ companies style
   align-items: center;
   flex-wrap: wrap;
 }
+/* ============
+features style
+================*/
+
+.inner_features {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1000px;
+  background-image: url(../images/features/features-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.inner_features h2 {
+  font-size: 36px;
+  line-height: 46px;
+  color: #242f51;
+  font-weight: 600;
+  max-width: 285px;
+}
+
+.inner_features p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+  max-width: 432px;
+}
+
+.feature_item {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  column-gap: 30px;
+  margin: 50px 0;
+  max-width: 380px;
+}
