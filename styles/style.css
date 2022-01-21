@@ -14,6 +14,9 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #f9fbfc;
 }
+#hr {
+  color: #e7e7e7;
+}
 a {
   text-decoration: none;
 }
@@ -436,4 +439,268 @@ ultimate services style
   line-height: 26px;
   color: #616368;
   font-weight: 400;
+}
+/* ============
+awesome features
+================*/
+.awesome-features h2 {
+  max-width: 580px;
+}
+.twice_btn {
+  padding: 3px;
+  border: 2px solid #ebebeb;
+  border-radius: 50px;
+  max-width: 360px;
+  margin: 80px 0 -40px 0;
+}
+.twice_btn span {
+  font-size: 16px;
+  line-height: 44px;
+  color: #616368;
+  font-weight: 500;
+  padding: 0 50px;
+}
+
+/* ============
+payment card
+================*/
+#payment {
+  margin-bottom: 100px;
+}
+.inner_payment {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+.card {
+  max-width: 317px;
+  text-align: center;
+}
+.card_2 {
+  border: 2px solid #ebebeb;
+}
+.card_head {
+  max-width: 317px;
+  min-width: 317px;
+  background-color: #f4f7f9;
+  padding: 40px 40px 20px 40px;
+}
+.card_head h2 {
+  font-size: 60px;
+  line-height: 58px;
+  color: #242f51;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+.card_head h2 span {
+  font-size: 18px;
+  line-height: 28px;
+  color: #999ca5;
+  font-weight: 400;
+  margin-left: -10px;
+}
+.card_head h6 {
+  font-size: 20px;
+  line-height: 28px;
+  color: #242f51;
+  font-weight: 600;
+}
+.card_head p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #999ca5;
+  font-weight: 400;
+}
+.card_body {
+  padding: 30px 0 20px 0;
+  border-radius: 9px;
+  filter: drop-shadow(3.837px 54.866px 31px rgba(144, 163, 177, 0.18));
+  background-color: #ffffff;
+}
+.card_body p {
+  font-size: 16px;
+  line-height: 48px;
+  color: #999ca5;
+  font-weight: 400;
+}
+.card_body .try_btn {
+  margin-top: 20px;
+}
+.card_body a {
+  display: block;
+  font-size: 16px;
+  line-height: 28px;
+  color: #2500f9;
+  font-weight: 400;
+  margin-top: 20px;
+}
+/* ============
+client style
+================*/
+#client {
+  background-image: url(../images/client/client-bg.png);
+  background-repeat: no-repeat;
+
+  background-position: left;
+  margin: 150px 0;
+}
+.inner_client {
+  display: flex;
+  justify-content: flex-end;
+}
+.client_content {
+  width: 560px;
+}
+.client_content h2 {
+  font-size: 40px;
+  line-height: 50px;
+  color: #242f51;
+  font-weight: 600;
+  max-width: 490px;
+  margin-bottom: 30px;
+}
+.client_content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+  max-width: 480px;
+}
+.client_content p:nth-child(5) {
+  max-width: 560px;
+}
+.client_content p i {
+  font-size: 20px;
+  line-height: 58px;
+  color: #ffcc00;
+}
+.client_content h4 {
+  font-size: 20px;
+  line-height: 58px;
+  color: #242f51;
+  font-weight: 600;
+}
+
+.ceo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.ceo_left {
+  display: flex;
+}
+.ceo_left img {
+  margin-right: 30px;
+}
+.ceo_left p {
+  line-height: 0;
+}
+.ceo h5 {
+  font-size: 18px;
+  line-height: 58px;
+  color: #242f51;
+  font-weight: 600;
+}
+
+.ceo_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.ceo_right .fa-arrow-left {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  /* background-color: #eff3f8; */
+  border: 2px solid #eff3f8;
+  font-size: 18px;
+  line-height: 50px;
+  color: #dee1e6;
+  /* text-align: center; */
+  text-align: center;
+}
+.mini_border {
+  height: 30px;
+  border-left: 2px solid #e7e7e7;
+}
+.ceo_right .fa-arrow-right {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #eff3f8;
+  font-size: 18px;
+  line-height: 50px;
+  color: #2500f9;
+  text-align: center;
+}
+
+/* ============
+client style
+================*/
+#faq {
+  margin-bottom: 150px;
+}
+.inner_faq {
+  max-width: 992px;
+}
+.inner_faq_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.inner_faq_top h2 {
+  font-size: 40px;
+  line-height: 58px;
+  color: #242f51;
+  font-weight: 600;
+  text-align: center;
+}
+.inner_faq_top p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+  text-align: center;
+  margin: 50px 0 60px 0;
+  max-width: 650px;
+}
+
+.faq_content_top {
+  /* width: 945px;
+  height: 256px; */
+  padding: 20px 50px 80px 50px;
+  background-color: #f5f7fa;
+}
+.faq_content h5 {
+  font-size: 20px;
+  line-height: 58px;
+  color: #242f51;
+  font-weight: 600;
+  /* text-align: center; */
+}
+.faq_content_top h5 {
+}
+.faq_content_top p {
+  /* max-width: 810px; */
+  /* height: 110px; */
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+  text-align: left;
+  /* margin-bottom: 20px; */
+  max-width: 811px;
+}
+.faq_single {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f7fa;
+  margin: 10px 0;
+  padding: 0px 50px;
 }
