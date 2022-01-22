@@ -14,8 +14,8 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #f9fbfc;
 }
-#hr {
-  color: #e7e7e7;
+hr {
+  border-top: 2px solid #e5e6e5;
 }
 a {
   text-decoration: none;
@@ -710,7 +710,7 @@ download app style
 #download_app {
   background-image: url(../images/download-app/download-app-bg.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right 40px;
   padding-bottom: 100px;
 }
 .inner_download_app {
@@ -735,4 +735,57 @@ download app style
   margin: 30px 0 50px 0;
 }
 .download_buttons_area {
+}
+
+/* ============
+footer style
+================*/
+footer {
+  background-color: #09142e;
+  padding: 100px 0;
+}
+.footer_inner {
+  text-align: center;
+}
+.footer_inner .logo_lab {
+  color: #fff;
+}
+.footer_inner .menu_area {
+  margin: 50px 0;
+}
+.footer_inner .menu_area ul li a {
+  color: #fff;
+}
+.footer_inner .menu_area ul li a:hover {
+  color: #fcae61;
+}
+
+.social_icons {
+  margin-bottom: 80px;
+}
+.social_icons li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+}
+.social_icons li:first-child {
+  margin-left: 0px;
+}
+.social_icons li a {
+  font-size: 30px;
+  letter-spacing: 23px;
+  line-height: 44px;
+  color: #273043;
+  transition: 0.3s;
+}
+.social_icons li a:hover {
+  color: #fcae61;
+}
+
+.footer_inner p {
+  font-size: 16px;
+  line-height: 44px;
+  color: #273043;
+
+  font-weight: 400;
 }
