@@ -641,7 +641,7 @@ client style
 client style
 ================*/
 #faq {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 .inner_faq {
   max-width: 992px;
@@ -703,4 +703,36 @@ client style
   background-color: #f5f7fa;
   margin: 10px 0;
   padding: 0px 50px;
+}
+/* ============
+download app style
+================*/
+#download_app {
+  background-image: url(../images/download-app/download-app-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 100px;
+}
+.inner_download_app {
+  /* max-width: 700px; */
+}
+.inner_download_app h2 {
+  padding-top: 100px;
+
+  font-size: 48px;
+  line-height: 58px;
+  color: #242f51;
+  font-weight: 600;
+  /* font-family: "Poppins";
+  text-align: center; */
+}
+.inner_download_app p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #616368;
+  font-weight: 400;
+  max-width: 635px;
+  margin: 30px 0 50px 0;
+}
+.download_buttons_area {
 }
