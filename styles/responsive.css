@@ -1,0 +1,233 @@
+/* for medium divices */
+@media screen and (max-width: 992px) {
+  .menu_area {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+
+  #companies {
+    margin-bottom: 50px;
+  }
+  #jackpots {
+    margin: 50px 0 50px 0;
+  }
+  .inner_features {
+    display: flex;
+    justify-content: center;
+    background-image: none;
+  }
+  .inner_features h2 {
+    max-width: 100%;
+  }
+
+  .inner_features p {
+    max-width: 900px;
+  }
+  .inner_jacpots {
+    flex-direction: column;
+  }
+  .inner_jacpots h2 {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .inner_jacpots p {
+    max-width: 100%;
+  }
+  .middle_border {
+    display: none;
+  }
+  /* #features_2 {
+    margin-bottom: 140px;
+  } */
+  .features_items_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+  }
+  .feature_item_2 p {
+    max-width: 100%;
+  }
+
+  .inner_services {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 90px;
+    justify-items: center;
+  }
+  .service {
+    max-width: 100%;
+  }
+
+  #ultimate_features {
+    background-image: none;
+    margin-bottom: 70px;
+  }
+
+  #built {
+    margin-bottom: 70px;
+  }
+  .inner_ultimate_features h2 {
+    max-width: 100%;
+    margin-top: 50px;
+  }
+
+  .inner_ultimate_features > p {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  .ultimate_services {
+    max-width: 100%;
+    /* text-align: left; */
+  }
+
+  .ultimate_service {
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
+
+  #client {
+    background-image: none;
+  }
+  .inner_client {
+    justify-content: center;
+  }
+  .client_content h2 {
+    max-width: 100%;
+  }
+  .client_content p {
+    max-width: 100%;
+  }
+  #download_app {
+    background-image: none;
+  }
+  .inner_download_app {
+    text-align: center;
+  }
+  .inner_download_app p {
+    max-width: 100%;
+  }
+  .social_icons {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}
+
+/* =========
+for small devices 
+================= */
+@media screen and (max-width: 768px) {
+  .inner_banner {
+    flex-direction: column-reverse;
+  }
+  .banner_btn_area {
+    margin-bottom: 30px;
+  }
+  .banner_image {
+    margin-bottom: 30px;
+  }
+
+  .all_companies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .features_items_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-row-gap: 30px;
+  }
+  .features_items_2 p {
+    max-width: 300px;
+  }
+  .inner_built {
+    flex-direction: column;
+  }
+  .built_content h2 {
+    max-width: 100%;
+  }
+
+  .inner_features h2 {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #ultimate_features {
+    background-image: none;
+  }
+
+  .inner_ultimate_features h2 {
+    max-width: 700px;
+  }
+  .inner_ultimate_features > p {
+    max-width: 700px;
+    margin-bottom: 50px;
+  }
+  #client {
+    background-image: none;
+  }
+
+  #download_app {
+    background-image: none;
+  }
+}
+
+/* =========
+for mini devices 
+================= */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px !important;
+    line-height: 50px !important;
+  }
+  h2 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+
+  .all_companies {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  #jackpots {
+    margin: 30px 0 50px 0;
+  }
+  #client {
+    margin: 70px 0 100px 0;
+  }
+  .features_items_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-row-gap: 30px;
+  }
+
+  .inner_services {
+    grid-template-columns: 1fr;
+    column-gap: 90px;
+    justify-items: center;
+  }
+  .service {
+    max-width: 70%;
+  }
+
+  .ultimate_services {
+    max-width: 590px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .ultimate_service {
+    max-width: 90%;
+  }
+  .inner_payment {
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+}

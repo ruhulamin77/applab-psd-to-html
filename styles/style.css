@@ -44,12 +44,13 @@ a {
 /*=================
     navbar style
  ==================*/
-.inner_container {
+.inner_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  padding: 0 15px;
 }
 .logo,
 .logo_lab {
@@ -94,6 +95,14 @@ a {
   font-size: 16px;
   line-height: 44px;
   cursor: pointer;
+}
+.hamburger {
+  display: none;
+  font-size: 30px;
+  padding: 0 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: #09142e;
 }
 
 /* ============
@@ -190,6 +199,9 @@ companies style
   align-items: center;
   flex-wrap: wrap;
 }
+.all_companies img {
+  padding: 40px;
+}
 /* ============
 features style
 ================*/
@@ -244,12 +256,12 @@ features style
 jackpots style
 ================*/
 
-.innet_jacpots {
+.inner_jacpots {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.innet_jacpots h2 {
+.inner_jacpots h2 {
   font-size: 40px;
   line-height: 50px;
   color: #242f51;
@@ -257,7 +269,7 @@ jackpots style
   width: 461px;
   padding: 0 15px;
 }
-.innet_jacpots p {
+.inner_jacpots p {
   font-size: 16px;
   line-height: 26px;
   color: #616368;
@@ -319,6 +331,10 @@ built style
   justify-content: center;
   align-items: center;
   column-gap: 100px;
+}
+.inner_built img {
+  width: 100%;
+  margin-bottom: 30px;
 }
 .built_content h2 {
   max-width: 360px;
@@ -422,7 +438,7 @@ ultimate services style
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 60px;
-  justify-content: start;
+  justify-content: end;
 }
 .ultimate_service {
   max-width: 265px;
@@ -474,14 +490,13 @@ payment card
 }
 .card {
   max-width: 317px;
+  max-width: 317px;
   text-align: center;
 }
 .card_2 {
   border: 2px solid #ebebeb;
 }
 .card_head {
-  max-width: 317px;
-  min-width: 317px;
   background-color: #f4f7f9;
   padding: 40px 40px 20px 40px;
 }
@@ -733,8 +748,6 @@ download app style
   font-weight: 400;
   max-width: 635px;
   margin: 30px 0 50px 0;
-}
-.download_buttons_area {
 }
 
 /* ============
